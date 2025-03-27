@@ -9,6 +9,8 @@ Pour ce faire, l'administrateur doit passer aux bons états du WS aux moments re
 
 Une fois que tous les électeurs souhaités ont été enregistrés, il pourra changer l'état pour passer à la collecte des propositions avec la fonction openProposalRegistration(), qui changer le WS pour le passer à ProposalsRegistrationStarted.
 
+Les utilisateurs enregistrés et l'administrateur pourront émettre des propositions à l'aide de la fonction registerProposal().
+
 Une fois toutes les propositions collectées, l'admin pourra passer le WS à ProposalsRegistrationEnded avec la fonction closeProposalRegistration().
 
 Il devra ensuite démarrer le vote à l'aide de la fonction openVotingSession() qui passera le WS à VotingSessionStarted.
